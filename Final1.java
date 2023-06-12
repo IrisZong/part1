@@ -15,13 +15,16 @@ public class Final1 {
        
       
         
-        int sum=0;
-        int n=0;
+        int sum=0; //set sum at first as 0
+        int n=0;    //n is the number we want to add
         
-         while(n<100)  {
-             n+=1;
-             sum+=n;
+         while(n<100)    //as long as n<100 keep repeating
+         { 
+            
+             n+=1;       //n=n+1, each time n increased by 1 util reach 100
+             sum+=n;     //sum=sum+n
              
+            
          }    
                          
             
